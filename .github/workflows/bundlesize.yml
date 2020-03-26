@@ -1,4 +1,4 @@
-name: Bundlesize Check
+name: Bundlesize
 on:
   pull_request:
     types: [opened, synchronize]
@@ -17,6 +17,6 @@ jobs:
           path: 'new'
 
       - name: Check Bundle Size Change
-        uses: "BinaryMuse/action-bundlesize@master"
+        uses: "BinaryMuse/action-bundlesize@3d64602"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
