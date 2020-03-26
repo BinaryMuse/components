@@ -17,6 +17,6 @@ jobs:
           path: 'new'
 
       - name: Check Bundle Size Change
-        uses: "BinaryMuse/action-bundlesize@4066b0c"
+        uses: "BinaryMuse/action-bundlesize@6927750"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
