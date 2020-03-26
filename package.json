@@ -84,7 +84,7 @@
     "react": "^16.8.0",
     "styled-components": "4.x || 5.x"
   },
-  "bundlesize": {
+  "actionBundlesize": {
     "build": "yarn && yarn dist",
     "files": [
       {
