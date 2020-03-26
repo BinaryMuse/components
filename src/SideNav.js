@@ -136,6 +136,42 @@ SideNav.Link = styled(Link).attrs(props => {
       font-weight: ${get('fontWeights.semibold')};
     }
   }
+
+  ${SideNav}.variant-lightweight2 > & {
+    padding: ${get('space.1')} 0;
+    color: ${get('colors.blue.5')};
+
+    &:hover,
+    &:focus {
+      color: ${get('colors.gray.9')};
+      text-decoration: none;
+      outline: none;
+    }
+
+    &[aria-current='page'],
+    &[aria-selected='true'] {
+      color: ${get('colors.gray.9')};
+      font-weight: ${get('fontWeights.semibold')};
+    }
+  }
+
+  ${SideNav}.variant-lightweight3 > & {
+    padding: ${get('space.1')} 0;
+    color: ${get('colors.blue.5')};
+
+    &:hover,
+    &:focus {
+      color: ${get('colors.gray.9')};
+      text-decoration: none;
+      outline: none;
+    }
+
+    &[aria-current='page'],
+    &[aria-selected='true'] {
+      color: ${get('colors.gray.9')};
+      font-weight: ${get('fontWeights.semibold')};
+    }
+  }
 `
 
 SideNav.defaultProps = {
