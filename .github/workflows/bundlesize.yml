@@ -1,7 +1,8 @@
 name: Bundlesize
 on:
-  pull_request:
-    types: [opened, synchronize]
+  push:
+    branches-ignore:
+      - master
 
 jobs:
   bundlesize:
